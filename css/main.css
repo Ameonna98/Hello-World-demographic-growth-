@@ -23,3 +23,98 @@ li {
     display: center;
     color: black;
 }
+
+.testa a{
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 30px;
+    color: black;
+    
+}
+
+h1{
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#AL{
+    padding-bottom: 10px; 
+}
+
+#Scelte{
+    padding-left: 100px;
+}
+
+#cover {
+    position: relative;
+  }
+  
+#pianeta {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    position: center;
+    margin-left:900px; 
+  }
+
+  #astro {
+    position: absolute;
+    left: 0;
+    top: 300px;
+    width: 100%;
+    position: center;
+    margin-left:650px; 
+  }
+  
+#blu{ 
+    width: 100%;
+    height: auto;
+  }
+
+#inizio{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    position: center;
+    margin-left:100px; 
+}
+
+#chartContainer{
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    background:#01103a;
+    height: 40px;
+}
+
+.piede a{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.piede ul{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 5px;
+}
+
+.piede{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    display: inline;
+    display: center;
+
+}
