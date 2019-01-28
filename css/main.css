@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background:rgb(255, 255, 255);
+    overflow-x:hidden;
+}
+nav{
+    background:#6bafd6;
+    height:70px;
+    padding: 0px;
+    
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    padding-right: 80px;
+}
+
+li {
+    padding-left:10px;
+    display: inline;
+    display: center;
+    color: black;
+}
