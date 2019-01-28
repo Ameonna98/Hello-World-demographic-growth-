@@ -22,18 +22,79 @@
 
   <!-- link del css -->
   <link rel="stylesheet" href="css/main.css">
-   <title> Hello World!</title>
+  
+  <!-- link delle font da goggle font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"> 
+ 
+  <title> Hello World!</title>
 
   <meta charset="utf-8">
-  </head>
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+     <ul>
+        <li style= "padding-left: 70px;"><img id="AL" src="img/logo.svg" height="60"></li>
+        <li class="testa"><a>Hello World!</a></li>
+     </ul>
+     <ul class="Scelte"> 
+        <li class="testa"><a href="https://www.hwupgrade.it/forum/archive/index.php/t-2182817.html">Forum</a></li>
+        <li class="testa"><a href="https://top2018.it/top-36-curiosita-sullo-spazio-e-sui-pianeti-del-sistema-solare/">Curiosità</a></li>
+        <li class="testa"><a href="https://www.nasa.gov">NASA</a></li>
+        <li class="testa"><a href="https://it.wikipedia.org/wiki/Crescita_demografica">Info</a></li>  <!-- Link casuali -->
+      </ul>
+    </nav>
+    <!-- Image and text -->
+    <div id="cover">
+      <div id="blu">
+          <img src="img/sfondo.png" style="width:100%">
+        </div>
+        <div id="pianeta">
+          <img src="img/earth.svg" style="width:20%">
+        </div>
+        <div id="astro">
+          <img src="img/astronauta.svg" style="width:10%">
+      </div>
   
-  <body>
-  
-  </body>
-  
-  <footer>
-  
-  </footer>
+      <div id="inizio">
+        <h1>Hello World!</h1>
+        <h3>Hello World! è il sito web che ti aggiorna sul </h3>
+        <h3 style="margin-bottom:30px;">incremento di crescita della popolazione mondiale.</h3>
+        <h3>Così possiamo comprendere se possiamo rimanere</h3>
+        <h3> ancora sulla Terra o fuggire nella Galassia alla </h3> 
+        <h3>di nuovi orizzonti.</h3>
+    </div>
+  </div>
+
+    <!--Dorpdown Menù-->
+    
+    <select id="selezione">
+        <option>Scegli il Paese</option>       
+    </select>
+    
+    <!-- il Grafico  WLD -->
+    <div id="chartContainer">
+        <canvas id="WorldC"></canvas>
+    </div>
+
+     <!-- script del js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+<footer> 
+    <ul class="piede" style= "padding-top:10px;">
+        <li class="piede"style= "padding-left: 150px;" >Per sapere di più contatta<a href="https://www.google.com/gmail/"> helloworld@gmail.com</a></li>
+        <li class="piede">Fatto con amore <a href="https://www.facebook.com/grazia.faleschini">Grazia Faleschini</a></li>
+        <li class="piede"><a href="https://it-it.facebook.com/">Facebook</a></li>
+        <li class="piede"><a href="https://twitter.com/">Twitter</a></li>
+        <li class="piede"><a href="https://www.instagram.com/?hl=it">Instagram</a></li>
+        <li class="piede"><a href="https://www.pinterest.it/">Pinterest</a></li>
+    </ul>
+
+</footer>
 
 </html>
-  
