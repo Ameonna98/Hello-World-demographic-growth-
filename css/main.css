@@ -44,6 +44,17 @@ h3{
     color: white;
 }
 
+h6{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
 #AL{
     padding-bottom: 10px; 
 }
@@ -54,12 +65,12 @@ h3{
 
 #cover {
     position: relative;
+    padding-bottom: 40px;
   }
   
 #pianeta {
     position: absolute;
-    left: 0;
-    top: 100px;
+    top: 80px;
     width: 100%;
     position: center;
     margin-left:900px; 
@@ -67,8 +78,7 @@ h3{
 
   #astro {
     position: absolute;
-    left: 0;
-    top: 300px;
+    top: 260px;
     width: 100%;
     position: center;
     margin-left:650px; 
@@ -88,9 +98,18 @@ h3{
     margin-left:100px; 
 }
 
+#selezione{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
 #chartContainer{
-    width: 50%;
-    height: 50%;
+    margin: 50px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
 }
 
 footer{
@@ -102,19 +121,19 @@ footer{
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
     color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .piede ul{
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 5px;
+    position: center;
 }
 
 .piede{
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
     color: white;
-    display: inline;
     display: center;
-
+    align-items: center;
 }
