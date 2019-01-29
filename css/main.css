@@ -7,7 +7,6 @@ nav{
     background:#6bafd6;
     height:70px;
     padding: 0px;
-    
 }
 
 ul {
@@ -27,8 +26,7 @@ li {
 .testa a{
     font-family: 'Baloo Thambi', cursive;
     font-size: 30px;
-    color: black;
-    
+    color: black; 
 }
 
 h1{
@@ -52,7 +50,6 @@ h6{
     justify-content: center;
     margin: 0 auto;
     align-items: center;
-    
 }
 
 #AL{
